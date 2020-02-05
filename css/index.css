@@ -1,4 +1,25 @@
 @font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Amatic SC Regular'), local('AmaticSC-Regular'), url(https://fonts.gstatic.com/s/amaticsc/v13/TUZyzwprpvBS1izr_vOECuSa.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Indie Flower'), local('IndieFlower'), url(https://fonts.gstatic.com/s/indieflower/v11/m8JVjfNVeKWVnh3QMuKkFcZVaUuC.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lobster Regular'), local('Lobster-Regular'), url(https://fonts.gstatic.com/s/lobster/v22/neILzCirqoswsqX9zoKmNg.ttf) format('truetype');
+}
+@font-face {
   font-family: 'Lobster';
   font-style: normal;
   font-weight: 400;
@@ -139,7 +160,14 @@ h3 {
   color: #56f356;
 }
 .logo {
-  padding-bottom: 2%;
+  padding-bottom: 1%;
+  display: flex;
+}
+html {
+  font-family: 'Indie Flower', cursive;
+}
+.fas {
+  color: #56f356;
 }
 .nav {
   display: flex;
@@ -171,4 +199,13 @@ h3 {
   font-size: 1rem;
   border-radius: 10px;
   color: black;
+}
+.info-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 2%;
+}
+.info-section div {
+  width: 250px;
 }
