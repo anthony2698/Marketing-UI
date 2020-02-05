@@ -152,12 +152,12 @@ q:after {
 h1 {
   font-size: 5rem;
   font-family: 'Lobster', cursive;
-  color: #56f356;
+  color: #030303;
 }
 h3 {
   font-size: 2rem;
   font-family: 'Lobster', cursive;
-  color: #56f356;
+  color: #030303;
 }
 .logo {
   padding-bottom: 1%;
@@ -167,10 +167,13 @@ html {
   font-family: 'Indie Flower', cursive;
 }
 .fas {
-  color: #56f356;
+  color: #030303;
 }
 footer {
   text-align: center;
+}
+.icon {
+  margin-left: 80px;
 }
 .nav {
   display: flex;
@@ -197,14 +200,14 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #56f356;
+  background-color: #030303;
   margin: 10px auto;
   cursor: pointer;
   width: 200px;
   height: 45px;
   font-size: 1rem;
   border-radius: 10px;
-  color: black;
+  color: white;
   font-family: 'Indie Flower', cursive;
 }
 .info-section {
