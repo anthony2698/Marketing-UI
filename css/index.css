@@ -169,10 +169,16 @@ html {
 .fas {
   color: #56f356;
 }
+footer {
+  text-align: center;
+}
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.nav nav a {
+  margin: 15px;
 }
 .big-img {
   position: relative;
@@ -199,13 +205,24 @@ html {
   font-size: 1rem;
   border-radius: 10px;
   color: black;
+  font-family: 'Indie Flower', cursive;
 }
 .info-section {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-top: 2%;
+  padding-top: 4%;
+}
+@media (max-width: 768px) {
+  .info-section {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .info-section div {
   width: 250px;
+  height: 180px;
+}
+.info-section div h3 {
+  padding-bottom: 15px;
 }
