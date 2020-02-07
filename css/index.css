@@ -229,3 +229,16 @@ footer {
 .info-section div h3 {
   padding-bottom: 15px;
 }
+.about-h1 {
+  text-align: center;
+  margin: 2%;
+}
+.about-us-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.about-us-section div {
+  margin: 1% 0;
+}
